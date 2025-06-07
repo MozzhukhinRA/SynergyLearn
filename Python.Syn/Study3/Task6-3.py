@@ -2,7 +2,6 @@ word = input()  #Надо подсчитать сколько гласных в 
 vowels = 'aeiou'
 count = ''
 not_count = ''
-not_vowels = ''
 missing_vowels = ''
 
 for i in word:
