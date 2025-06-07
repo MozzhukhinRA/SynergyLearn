@@ -1,4 +1,4 @@
-a,b = int(input()),int(input())
+a,b = int(input()),int(input())  # Выведите все четные числа на заданном отрезке через пробел
 
 if a <= b:
     for i in range(a,b + 1):
