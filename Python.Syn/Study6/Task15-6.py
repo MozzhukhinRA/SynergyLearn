@@ -38,3 +38,4 @@ if not zero_unit:
 else:
     print(f'There is a fisherman(s) who cant get across - {zero_unit}')
 
+#Программа должна вывести одно число - минимальное количество лодок, необходимое для переправки всех рыбаков на противоположный берег
