@@ -7,3 +7,4 @@ for i in num1:
         num3.add(i)
 
 print(f'Simultaneous numbers in the list: {len(num3)}')
+# Выведите, сколько чисел содержится одновременно как в первом списке, так и во втором
