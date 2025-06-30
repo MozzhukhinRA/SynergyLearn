@@ -21,3 +21,6 @@ class Autobus(Transport):
 car1 = Autobus("Renault Logan", 180, 12)
 
 car1.seating_capacity_unit()
+
+#Создайте класс Autobus, который наследуется от класса Transport.
+#Дайте аргументу Autobus.seating_capacity() значение по умолчанию 50
