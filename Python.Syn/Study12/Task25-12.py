@@ -10,3 +10,5 @@ class Transport(object):
 
 Autobus = Transport("Renault Logan", 180, 12)
 Autobus.get_info()
+
+#Создайте объект Autobus, который унаследует все переменные и методы родительского
