@@ -14,9 +14,13 @@ function division(a, b) {
     return a / b;
 }
 
+function prepareNumber(value) {
+    return value.trim().replace(",", ".");
+}
+
 function readNumbers() {
-    const firstValue = firstNumberInput.value.trim();
-    const secondValue = secondNumberInput.value.trim();
+    const firstValue = prepareNumber(firstNumberInput.value);
+    const secondValue = prepareNumber(secondNumberInput.value);
 
     if (firstValue === "" || secondValue === "") {
         throw new Error("Введите два числа.");
