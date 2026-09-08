@@ -18,3 +18,7 @@ class GreetingViewTests(TestCase):
         response = self.client.post(reverse("home"), {"name": "   "})
         self.assertEqual(response.status_code, 200)
         self.assertEqual(UserName.objects.count(), 0)
+
+    def test_spaces_are_removed_from_name(self):
+        self.client.post(reverse("home"), {"name": "  Роман  "})
+        self.assertTrue(UserName.objects.filter(name="Роман").exists())
