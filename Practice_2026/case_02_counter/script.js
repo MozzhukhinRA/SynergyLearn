@@ -17,8 +17,8 @@ function updateInterface() {
         result.classList.add("zero");
     }
 
-    plusButton.disabled = counterValue === 10;
-    minusButton.disabled = counterValue === -10;
+    plusButton.disabled = counterValue >= 10;
+    minusButton.disabled = counterValue <= -10;
 
     if (counterValue === 10 || counterValue === -10) {
         message.textContent = "Вы достигли экстремального значения";
