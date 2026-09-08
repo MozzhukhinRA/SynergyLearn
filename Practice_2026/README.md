@@ -1,7 +1,7 @@
 # 🎓 Учебная практика — кейс-задачи 1–5
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=520&lines=Python+%E2%80%A2+JavaScript+%E2%80%A2+Django;5+учебных+кейс-задач" alt="Typing SVG" />
+  <sub>Python • JavaScript • Django · 5 учебных кейс-задач</sub>
 </p>
 
 <p align="center">
@@ -16,11 +16,11 @@
 
 ## 📁 Структура
 
-- 🐍 `case_01_birthdate` — работа с датой рождения на Python;
-- 🔢 `case_02_counter` — простой счётчик на HTML, CSS и JavaScript;
-- 🌐 `case_03_django_greeting` — небольшое Django-приложение с сохранением имени в БД;
-- 🧮 `case_04_calculator` — интерактивный калькулятор;
-- 📝 `case_05_analysis` — аналитический обзор третьего кейса.
+- `case_01_birthdate` — работа с датой рождения на Python;
+- `case_02_counter` — простой счётчик на HTML, CSS и JavaScript;
+- `case_03_django_greeting` — небольшое Django-приложение с сохранением имени в БД;
+- `case_04_calculator` — интерактивный калькулятор;
+- `case_05_analysis` — аналитический обзор третьего кейса.
 
 Внутри каждой папки есть свой `README.md` с короткой инструкцией по запуску.
 
