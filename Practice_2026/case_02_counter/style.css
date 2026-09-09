@@ -7,16 +7,18 @@ body {
     align-items: center;
     justify-content: center;
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #d7e8ff, #f3d9ff);
+    color: #e5e7eb;
+    background: linear-gradient(135deg, #111827, #312e81);
 }
 
 .counter {
     width: 340px;
     padding: 32px;
     text-align: center;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(17, 24, 39, 0.94);
+    border: 1px solid #374151;
     border-radius: 16px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
 }
 
 h1 { margin-top: 0; }
@@ -27,12 +29,13 @@ h1 { margin-top: 0; }
     padding: 20px;
     font-size: 40px;
     font-weight: bold;
+    color: #f9fafb;
     border-radius: 10px;
 }
 
-.result.positive { background: yellow; }
-.result.negative { background: lightgreen; }
-.result.zero { background: #ff7b7b; }
+.result.positive { background: #854d0e; }
+.result.negative { background: #166534; }
+.result.zero { background: #991b1b; }
 
 .buttons {
     display: flex;
@@ -46,11 +49,12 @@ button {
     border: none;
     border-radius: 5px;
     font-size: 16px;
+    color: #f9fafb;
     cursor: pointer;
-    background: linear-gradient(135deg, #7dd3fc, #c084fc);
+    background: linear-gradient(135deg, #0369a1, #7e22ce);
 }
 
-button:hover:not(:disabled) { filter: brightness(0.95); }
+button:hover:not(:disabled) { filter: brightness(1.12); }
 button:disabled { cursor: not-allowed; opacity: 0.45; }
 
 .message {
