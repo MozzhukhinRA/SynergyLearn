@@ -30,15 +30,17 @@ function readNumbers() {
     const secondNumber = Number(secondValue);
 
     if (!Number.isFinite(firstNumber) || !Number.isFinite(secondNumber)) {
-        throw new Error("Ошибка: в поля необходимо вводить цифры.");
+        throw new Error("Ошибка: в поля необходимо вводить числа.");
     }
 
     return [firstNumber, secondNumber];
 }
 
 function showResult(value) {
+    const roundedValue = Number(value.toFixed(10));
+
     result.classList.remove("error");
-    result.textContent = `Результат: ${value}`;
+    result.textContent = `Результат: ${roundedValue}`;
 }
 
 function showError(message) {
