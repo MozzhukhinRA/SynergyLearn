@@ -22,4 +22,11 @@ class UserNameForm(forms.ModelForm):
         if not name:
             raise forms.ValidationError("Поле имени не должно быть пустым.")
 
+        if not any(char.isalpha() for char in name) or not all(
+            char.isalpha() or char in " -" for char in name
+        ):
+            raise forms.ValidationError(
+                "Имя может содержать только буквы, пробелы и дефис."
+            )
+
         return name
